@@ -1,0 +1,26 @@
+# 全局对象
+
+## global  他是作为去全局变量的宿主
+## process
+## versions
+## argv
+## env
+## pid
+## features
+## dir
+## memoryUsage
+## EventEmitter
+## nextTick
+## std
+### stdout
+### stdin
+### stderr
+## exit
+## kill
+  clearInterval: [Function],
+  clearImmediate: [Function],
+  clearTimeout: [Function],
+  setImmediate: [Function],
+  setInterval: [Function],
+  setTimeout: [Function],
+  console: [Getter] }

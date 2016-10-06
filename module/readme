@@ -1,0 +1,32 @@
+## js模块不足
+- js没有模块系统，不支持封闭的作用域及依赖管理
+- 没有标准库，不支持文件系统及IO流API
+- 没有包管理系统
+
+## commonjs规范（解决上述问题）
+
+## commonJS in node
+-   每个js文件就是一个模块
+-   实现了require方法
+-   有npm管理工具——模块的自动安装与加载
+
+## 定义模块
+-   每个模块（js文件）都有一个exports属性
+var exports = {}
+(function(exports,require,module,__filename,__dirname){
+
+    return exports ;
+})
+
+## 模块加载策略
+-   原生模块： http、path、util、fs、events 编译成二进制，加载速度最快
+-   文件模块 ： 在硬盘的摸个模块 加载非常慢
+## 如何查找文件模块
+### 文件模块分类
+-   js文件，需要先读入内存在运行
+-   josn文件 fs读入内存，转成JSON对象
+-   node二进制文件 直接使用
+### 查找过程
+
+
+
