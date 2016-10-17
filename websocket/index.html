@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <script language="javascript">
+        var socket = new WebSocket('ws://localhost:8080');
+        socket.onopen = function () {
+            console.log('connection coming');
+            socket.send('hello server');
+        }
+
+        socket.onmessage = function (event) {
+
+            console.log(event.data);
+        }
+    </script>
+
+</body>
+</html>
