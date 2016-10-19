@@ -1,0 +1,17 @@
+
+# 安装生成器
+   ```npm install -g express-generator```
+
+# 生成项目
+     ```express -e self-shop```
+
+# 引入 bower
+    ```npm install -g bower```
+
+# 初始化bower
+    ```bower init ```
+
+# 安装第三方模块
+    ```bower install bootstrap --save ```   // -save 会将该依赖加入配置文件bower.json
+
+# 编辑.bowerrc文件   // 自定义bower安装依赖的位置

@@ -1,0 +1,24 @@
+{
+  "name": "self-shop",
+  "description": "this is self shop project",
+  "main": "",
+  "authors": [
+    "huhu <wuwangwo420@126.com/lianhuayu420@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "huhu",
+    "shop"
+  ],
+  "homepage": "https://github.com/langlichong/node-study",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
